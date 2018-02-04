@@ -69,7 +69,11 @@ margin-top: 100px;
 .loaded{
    opacity:0;
    transition:opacity 1000ms;
-   visibility: collapse;
+}
+
+.remove{
+  visibility: collapse;
+  transition:visibility 1000ms;
 }
 
 #emailfield{

@@ -6,8 +6,10 @@ jQuery(document).ready(function( $ ) {
     $('#loading').addClass('run');
     $('#wrapper').addClass('loaded');
     
-  }, 1000);
-  
+  }, 1500);
+  setTimeout(function() {
+    $('#wrapper').addClass('remove');
+  }, 2000);
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
