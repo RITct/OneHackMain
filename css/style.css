@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+
 #particles-js{
   position: absolute;
 top: 0;
@@ -153,6 +154,8 @@ height: 99%;
   height: 100vh;
   background: #000;
 }
+
+
 
 #intro .carousel-item {
   width: 100%;
