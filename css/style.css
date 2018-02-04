@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #loading{
-  margin: auto;
-    margin-top: auto;
+margin: auto;
+margin-top: auto;
 top: 0;
 bottom: 0;
 left: 0;
@@ -46,11 +46,26 @@ right: 0;
 width: 50%;
 margin-top: 30%;
 margin-top: 100px;
+z-index:3020;
+position: absolute;
+}
+
+
+#loader{
+  background: #0f44d6;
+  height:100%;
+  z-index:3010;
+position: absolute;
+  
+}
+
+.loader-loading{
+  width:0%;
 }
 
 .run{
-  transform: translateX(1000px);
-  transition-duration:800ms;
+  width:100%;
+  transition:width 800ms;
 }
 
 #wrapper{
@@ -60,6 +75,7 @@ margin-top: 100px;
   z-index: 2000;
   background: #2c9ecc;
   text-align:center;
+  z-index:3000;
 }
 
 .loading{
@@ -69,11 +85,11 @@ margin-top: 100px;
 .loaded{
    opacity:0;
    transition:opacity 1000ms;
+   transition-delay: 800ms;
 }
 
 .remove{
   visibility: collapse;
-  transition:visibility 1000ms;
 }
 
 #emailfield{

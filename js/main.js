@@ -2,14 +2,14 @@
 
 jQuery(document).ready(function( $ ) {
   setTimeout(function() {
+    $('#loader').removeClass('loader-loading');
+    $('#loader').addClass('run');
     $('#wrapper').removeClass('loading');
-    $('#loading').addClass('run');
     $('#wrapper').addClass('loaded');
-    
-  }, 1500);
+  }, 2000);
   setTimeout(function() {
     $('#wrapper').addClass('remove');
-  }, 2000);
+  }, 3000);
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
