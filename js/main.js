@@ -3,9 +3,11 @@
 jQuery(document).ready(function( $ ) {
   setTimeout(function() {
     $('#wrapper').removeClass('loading');
+    $('#loading').addClass('run');
     $('#wrapper').addClass('loaded');
     
   }, 1000);
+  
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {

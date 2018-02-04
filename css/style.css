@@ -48,6 +48,11 @@ margin-top: 30%;
 margin-top: 100px;
 }
 
+.run{
+  transform: translateX(1000px);
+  transition-duration:800ms;
+}
+
 #wrapper{
   width:100%;
   height:100%;
@@ -63,7 +68,7 @@ margin-top: 100px;
 
 .loaded{
    opacity:0;
-   transition:opacity 500ms;
+   transition:opacity 1000ms;
 }
 
 #emailfield{
