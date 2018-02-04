@@ -8,6 +8,9 @@ jQuery(document).ready(function( $ ) {
       $('.back-to-top').fadeOut('slow');
     }
   });
+
+  
+
   $('.back-to-top').click(function(){
     $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
     return false;
@@ -167,4 +170,8 @@ jQuery(document).ready(function( $ ) {
     items: 1
   });
 
+});
+
+particlesJS.load('particles-js', 'js/particles.json', function() {
+  console.log('callback - particles.js config loaded');
 });
