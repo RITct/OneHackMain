@@ -1,9 +1,23 @@
+  var preload = new createjs.LoadQueue();
+  preload.addEventListener("fileload", handleFileComplete);
+  preload.loadFile("/img/intro-carousel/1.jpg");
+  preload.loadFile("/img/intro-carousel/2.jpg");
+  preload.loadFile("/img/intro-carousel/3.jpg");
+  preload.loadFile("/img/intro-carousel/4.jpg");
+  
+
+
+  function handleFileComplete(){
+    setTimeout(function() {
+      $('#wrapper').removeClass('loading');
+      $('#wrapper').addClass('loaded');
+      
+    }, 1000);
+  }
+
+
 jQuery(document).ready(function( $ ) {
-  setTimeout(function() {
-    $('#wrapper').removeClass('loading');
-    $('#wrapper').addClass('loaded');
-    
-  }, 500);
+  
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
