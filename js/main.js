@@ -1,5 +1,9 @@
 jQuery(document).ready(function( $ ) {
-
+  setTimeout(function() {
+    $('#wrapper').removeClass('loading');
+    $('#wrapper').addClass('loaded');
+    
+  }, 500);
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -172,6 +176,3 @@ jQuery(document).ready(function( $ ) {
 
 });
 
-particlesJS.load('particles-js', 'js/particles.json', function() {
-  console.log('callback - particles.js config loaded');
-});
