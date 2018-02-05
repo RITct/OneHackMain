@@ -60,12 +60,37 @@ position: absolute;
 
 
 #loader{
-  background: #0f44d6;
+  background: #1b4f72;
   height:100%;
   z-index:3010;
-position: absolute;
-  
+  position: absolute;
+  transition:width 800ms;
 }
+
+#loader2{
+  background: #2874a6;
+  height:100%;
+  z-index:3011;
+  position: absolute;
+  transition:width 1400ms;
+}
+
+#loader3{
+  background:  #3394d4 ;
+  height:100%;
+  z-index:3011;
+  position: absolute;
+  transition:width 2000ms;
+}
+
+#loader4{
+  background:  #3db2ff;
+  height:100%;
+  z-index:3011;
+  position: absolute;
+  transition:width 2600ms;
+}
+
 
 .loader-loading{
   width:0%;
@@ -73,7 +98,6 @@ position: absolute;
 
 .run{
   width:100%;
-  transition:width 800ms;
 }
 
 #wrapper{
@@ -93,7 +117,7 @@ position: absolute;
 .loaded{
    opacity:0;
    transition:opacity 1000ms;
-   transition-delay: 800ms;
+   transition-delay: 1500ms;
 }
 
 .remove{

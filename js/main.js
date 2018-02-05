@@ -4,12 +4,15 @@ jQuery(document).ready(function( $ ) {
   setTimeout(function() {
     $('#loader').removeClass('loader-loading');
     $('#loader').addClass('run');
+    $('#loader2').addClass('run');
+    $('#loader3').addClass('run');
+    $('#loader4').addClass('run');
     $('#wrapper').removeClass('loading');
     $('#wrapper').addClass('loaded');
   }, 2000);
   setTimeout(function() {
     $('#wrapper').addClass('remove');
-  }, 3000);
+  }, 4000);
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -19,7 +22,7 @@ jQuery(document).ready(function( $ ) {
     }
   });
 
-  
+
 
   $('.back-to-top').click(function(){
     $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
@@ -181,4 +184,3 @@ jQuery(document).ready(function( $ ) {
   });
 
 });
-
