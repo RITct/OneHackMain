@@ -173,6 +173,7 @@ jQuery(document).ready(function( $ ) {
 
   // sponsors carousel (uses the Owl Carousel library)
   $(".clients-carousel").owlCarousel({
+    autoplay:true,
     center:true,
     responsive: { 0: { items: 1 }, 768: { items: 4 }, 900: { items: 6 }
     }
