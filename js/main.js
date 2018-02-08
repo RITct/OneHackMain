@@ -13,6 +13,11 @@ jQuery(document).ready(function( $ ) {
   setTimeout(function() {
     $('#wrapper').addClass('remove');
   }, 4000);
+
+
+  particlesJS.load('particles-js', 'js/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
