@@ -886,7 +886,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/onehack-call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -955,7 +955,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background: url("../img/onehack-facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
