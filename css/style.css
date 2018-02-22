@@ -42,6 +42,15 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 25%;
 }
 
+.ritu{
+  width:32px;
+  height:32px;
+  border-radius: 50%;
+  float:left;
+  margin-left:5px;
+  top:0;
+}
+
 #bg{
   background: #000;
   position: absolute;
@@ -958,6 +967,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: .9s;
 }
 
+.container-fluid{
+  margin-left:30px;
+}
 /* Facts Section
 --------------------------------*/
 #facts {
