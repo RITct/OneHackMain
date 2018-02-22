@@ -250,7 +250,7 @@ position: absolute;
 
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 60px;
+    padding-left: 15px;
   }
 }
 
@@ -967,9 +967,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: .9s;
 }
 
-.container-fluid{
-  margin-left:30px;
-}
 /* Facts Section
 --------------------------------*/
 #facts {
